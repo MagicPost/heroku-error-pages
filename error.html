@@ -20,24 +20,24 @@
             padding: 20px;
         }
         .container {
-            text-align: center;
-            max-width: 500px;
+            text-align: left;
+            max-width: 280px;
         }
         .logo {
-            width: 50px;
+            width: 36px;
             height: auto;
-            margin-bottom: 32px;
+            margin-bottom: 18px;
         }
         h1 {
-            font-size: 32px;
+            font-size: 25px;
             font-weight: 600;
+            line-height: 30px;
             margin-bottom: 16px;
             color: #2E2E2E;
         }
         p {
-            font-size: 16px;
+            font-size: 15px;
             line-height: 1.6;
-            margin-bottom: 24px;
             color: #6B6B6B;
         }
         .status {
@@ -45,16 +45,21 @@
             font-size: 14px;
             color: #999;
         }
+        .text {
+            display: flex;
+            flex-direction:  column;
+            gap: 12px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="logo_mp.svg" alt="MagicPost" class="logo">
-        <h1>Service Temporarily Unavailable</h1>
-        <p>We're experiencing technical difficulties. Our team is working to resolve the issue as quickly as possible.</p>
-        <div class="status">
-            <p>Please try again in a few moments.</p>
-        </div>
+        <img src="logo_down.svg" alt="MagicPost" class="logo">
+        <h1>We're having technical difficulties</h1>
+        <div class="text">
+        <p>Our team is working to have things running smoothly again soon.</p>
+        <p>Please try again in a few moments.</p>
+    </div>
     </div>
 </body>
 </html>
